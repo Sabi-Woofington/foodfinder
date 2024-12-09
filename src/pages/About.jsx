@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-main">
         <h1>About Us</h1>
         <p>
-          Welcome to Recipe Finder, your go-to place for discovering delicious recipes from around the world!
+          Welcome to FoodFinder, your go-to place for discovering delicious recipes from around the world!
         </p>
         <p>
           Our platform allows you to search for recipes based on your ingredients or dietary preferences. Whether you're looking for a quick meal, a healthy option, or a dish to impress your friends, we have something for everyone.

@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="nav-container">
       <div className="nav-logo">
         <img src={logo} alt="" />
-        <h1>Find Recipe</h1>
+        <h1>FoodFinder</h1>
       </div>
       <div className="nav-text">
         <NavLink to="/">

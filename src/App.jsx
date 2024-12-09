@@ -24,7 +24,7 @@ const App = () => {
         <Route path="/favorites" element={<Favorites/>} />
       </Routes>
    <div className="footer">
-   <p>Made with ❤️ by Abhishek Gurjar</p>
+   <p>FoodFinder® All rights reserved</p>
    </div>
     </>
   );

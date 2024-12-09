@@ -39,7 +39,7 @@ const Home = () => {
     <div className="home">
       <div className="home-main">
         <div className="home-text">
-          <h1>Find your Favourite Recipe</h1>
+          <h1>Welcome to FoodFinder!</h1>
         </div>
         <div className="input-box">
           <span>
@@ -51,6 +51,12 @@ const Home = () => {
             />
           </span>
           <IoSearch className="search-btn" onClick={getRecipe} />
+        </div>
+        {/* Text from balacend diet */}
+        <div className="diet-info">
+          <p>
+            A balanced diet is essential for maintaining good health and well-being. It provides the necessary nutrients your body needs to function properly, including vitamins, minerals, proteins, and healthy fats. Eating a variety of foods helps ensure that you get all the essential nutrients, improve energy levels, and reduce the risk of chronic diseases. Make sure to include plenty of fruits, vegetables, whole grains, and lean proteins in your daily meals.
+          </p>
         </div>
       </div>
       <div ref={recipeSectionRef} className="recipes">
